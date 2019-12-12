@@ -24,8 +24,9 @@ The id values are sorted in ascending order while the name values are sorted in 
 
 
 ### `mergeDicts(a,b)`
-Takes in 2 dictionaries (*a* and *b*) .
+Takes in 2 dictionaries (*a* and *b*).
 Creates a copy of *a* and adds to this items that are in *b*  whose keys are not already in *a*.
+Returns the updated copy.
 
 ## Running from the terminal
 Once you are done setting up the files, navigate to the project directory and start and interactive Python session.
@@ -36,7 +37,8 @@ Import the buysideAnswers module by running the following command:
 To call any of the functions, use `ba.functionName(input)` where functionName is the name of the function and input is the argument passed to the function where applicable.
  
 Below is an example of how to call *countUppercase* with the file provided in this repository:
-	`ba.countUppercase("file1.txt")`
+
+`ba.countUppercase("file1.txt")`
 
 ## Testing buySide
 buyside_test.py contains test cases that can be used to test the program. If you want to see whether the test cases are passing, run the following command:
